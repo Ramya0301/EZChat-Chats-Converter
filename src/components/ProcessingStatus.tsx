@@ -11,7 +11,7 @@ export function ProcessingStatus({ isProcessing, isProcessed }: ProcessingStatus
     return (
       <div className="flex items-center justify-center space-x-2 text-blue-600">
         <Loader2 className="w-5 h-5 animate-spin" />
-        <span>Processing file...</span>
+        <span>Обработка файла...</span>
       </div>
     );
   }
@@ -20,7 +20,7 @@ export function ProcessingStatus({ isProcessing, isProcessed }: ProcessingStatus
     return (
       <div className="flex items-center justify-center space-x-2 text-green-600">
         <CheckCircle2 className="w-5 h-5" />
-        <span>Processing is done. Please click below to download.</span>
+        <span>Обработка завершена. Нажмите ниже для загрузки.</span>
       </div>
     );
   }

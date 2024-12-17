@@ -43,11 +43,11 @@ export function FileUpload({ onFileSelect, isProcessing, error }: FileUploadProp
           </div>
           <div className="text-center">
             <p className="text-lg font-medium text-gray-700">
-              Drag and drop your JSON file here
+              Перетащите сюда свой файл JSON.
             </p>
-            <p className="text-sm text-gray-500 mt-1">or</p>
+            <p className="text-sm text-gray-500 mt-1">или</p>
             <label className="mt-3 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 cursor-pointer transition-colors">
-              <span>Select file</span>
+              <span>Выберите файл</span>
               <input
                 type="file"
                 className="hidden"
