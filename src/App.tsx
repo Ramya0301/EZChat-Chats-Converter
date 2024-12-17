@@ -41,7 +41,7 @@ function App() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${originalFileName}_converted.json`;
+    a.download = `${originalFileName}_преобразованный.json`;
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
